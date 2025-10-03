@@ -83,6 +83,11 @@ class _MyWebViewPageState extends State<MyWebViewPage> {
 			regBtn.style.display = 'none';
 			console.log("Register button found and hidden");
 		}
+    var regLink = document.getElementById('register-link');
+		if (regLink) {
+			regLink.style.display = 'none';
+			console.log("Register button found and hidden");
+		}
 		var showBanner = document.getElementById('show-download-banner');
 		if (showBanner) {
 			showBanner.style.display = 'none';

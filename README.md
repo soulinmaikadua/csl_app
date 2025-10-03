@@ -1,4 +1,4 @@
-# csl_app
+# CSL Android & iOS App
 
 A new Flutter project.
 
@@ -27,5 +27,6 @@ flutter pub run flutter_launcher_icons
 
 # Check when will build for each client
 
-1. check app icon, if not exist gen new
-2. check app bundle on file /android/app/build.gradle.kts -> applicationId = "com.client.th35"
+1. app icon: check app icon, if not exist gen new (two line above)
+2. app name: android/app/main/AndroidManifest.xml -> android:label="TH35" to any name
+3. app id: check app bundle on file /android/app/build.gradle.kts -> applicationId = "com.client.th35" to any id
