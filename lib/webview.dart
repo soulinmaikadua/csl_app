@@ -29,8 +29,7 @@ class _MyWebViewPageState extends State<MyWebViewPage> {
 
     final controller = WebViewController.fromPlatformCreationParams(params);
     const String customAgent = ' WebView/1.0.0';
-    // const String hostname = 'https://theme-3.cslvault.com';
-    const String hostname = 'https://katom365.com';
+    const String hostname = 'https://th358888.vip';
 
     controller
       ..setJavaScriptMode(JavaScriptMode.unrestricted)
@@ -42,10 +41,7 @@ class _MyWebViewPageState extends State<MyWebViewPage> {
             final uri = Uri.parse(url);
 
             // ✅ 1. Allow your main domain to load in WebView
-            // const mainDomain = "th358888.vip";
-            // const mainDomain = "cslvault.com";
-            // const mainDomain = 'theme-3.cslvault.com';
-            const mainDomain = 'katom365.com';
+            const mainDomain = "th358888.vip";
             if (uri.host.contains(mainDomain)) {
               return NavigationDecision.navigate;
             }
